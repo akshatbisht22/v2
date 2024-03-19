@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Spline Sans", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px 80px;
+}
+
+.navbar {
+  padding: 19px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarleft {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: left;
+}
+
+.navbarleft img {
+  cursor: pointer;
+  height: 60px;
+}
+
+.navbarmiddle {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarmiddle a {
+  cursor: pointer;
+  font-weight: 600;
+  color: #051e36;
+  margin: 0px 17px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.navbarmiddle a::after {
+  content: "";
+  position: relative;
+  bottom: 0;
+  top: 2px;
+  display: block;
+  background: #051e36;
+  width: 0%;
+  transition: 0.4s;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.navbarmiddle a:hover::after {
+  width: 100%;
+}
+
+.navbarright {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.navbarright a {
+  display: flex;
+  align-items: center;
+  margin: 0px 9px;
+}
+
+.navbarrightacts {
+  width: 20%;
+  display: none;
+}
+
+.navbarright a img {
+  height: 25px;
+}
+
+#menuOpen {
+  display: none;
+  height: 35px;
+}
+
+#menucloseimg{
+  height: 34px;
+  position: fixed;
+  right: 10px;
+  top: 7px;
+  display: none;
+}
+
+
+#works-main{
+  margin-top: 45px;
+  padding: 0px 100px;
+}
+
+#workshead h1{
+  margin-bottom: 0px;
+}
+
+#workshead p{
+  margin-top: 10px;
+}
+
+
+#worksbody{
+  margin-top: 50px;
+}
+
+.workcont{
+  padding: 34px 0px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 92px 0px;
+  border: none;
+  box-shadow: 0px 0px 11px #020d18b7;
+  border-radius: 2px;
+  border-bottom: 5px solid #051e36;
+}
+
+
+.workcont:nth-child(1){
+  margin-top: 53px;
+}
+
+.workcont-img{
+  padding-left: 30px;
+}
+
+.workcont-img img{
+  height: 69px;
+}
+
+.workcont-txt{
+  height: 100%;
+  padding-left: 30px;
+}
+
+.workcont-txt h2{
+  margin-bottom: 3px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.workcont-txt p{
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+
+
+.workcont-txt a {
+  margin-top: 0px;
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+}
+
+
+.workcont-txt a button{
+  background: #051e36;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 4px solid #0e3e6c;
+  padding: 7px 12px;
+  font-size: 15px;
+  color: white;
+}
+
+
+
+
+.workcont-txt a button img{
+  height: 20px;
+  padding-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  .navbarright {
+    display: none;
+  }
+
+  #works-main{
+    padding: 0px 10px;
+  }
+  .workcont{
+    padding-right: 30px;
+  }
+  .mobilenavright{
+    display: flex;
+    position: fixed;
+    padding-top: 20px;
+    justify-content: space-between;
+    top: 190px;
+    right: 0;
+    width: fit-content;
+    z-index: 1;
+  }
+
+  .mobilenavright a{
+    margin: 0px 46.8px;
+  }
+
+
+  #menuOpen {
+    display: block;
+    height: 40px;
+  }
+  .navbarleft {
+    justify-content: left;
+  }
+  .navbarrightacts {
+    display: flex;
+    justify-content: right;
+  }
+  .navbarmiddle {
+    display: none;
+  }
+  
+  #menucloseimg {
+    display: block;
+  }
+  .mobilenav{
+    display: flex;
+    position: fixed;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    height: 500%;
+    background: white;
+    padding-right: 140px;
+    box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.896);
+    padding-top: 100px;
+    padding-left: 20px;
+  }
+  .mobilenav a{
+    margin: 9px 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0px 40px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .workcont{
+    flex-direction: column;
+    text-align: center;
+  }
+  .workcont-txt{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .workcont{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .workcont-img{
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 380px) {
+  body {
+    padding: 0px 20px;
+  }
+}
