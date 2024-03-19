@@ -8,11 +8,13 @@
 body {
   margin: 0px;
   padding: 0px 80px;
+    font-family: "Spline Sans", sans-serif;
 }
 
 .navbar {
   padding: 19px 0px;
   width: 100%;
+    font-family: "Spline Sans", sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,11 +35,13 @@ body {
 .navbarmiddle {
   display: flex;
   width: 60%;
+    font-family: "Spline Sans", sans-serif;
   justify-content: center;
   align-items: center;
 }
 
 .navbarmiddle a {
+    font-family: "Spline Sans", sans-serif;
   cursor: pointer;
   font-weight: 600;
   color: #051e36;
@@ -64,6 +68,7 @@ body {
 }
 
 .navbarright {
+    font-family: "Spline Sans", sans-serif;
   width: 20%;
   display: flex;
   align-items: center;
@@ -102,9 +107,11 @@ body {
   margin-top: 77px;
   padding: 0px 20px;
   padding-bottom: 190px;
+    font-family: "Spline Sans", sans-serif;
 }
 
 .introtxt {
+    font-family: "Spline Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,24 +122,29 @@ body {
   color: #051e36;
   font-size: 58px;
   margin-bottom: 0px;
+    font-family: "Spline Sans", sans-serif;
 }
 
 .introtxt p {
   margin-top: 4px;
+    font-family: "Spline Sans", sans-serif;
 }
 
 .introbtn {
   display: flex;
   margin-top: 17px;
   justify-content: center;
+    font-family: "Spline Sans", sans-serif;
 }
 
 .introbtn a {
+    font-family: "Spline Sans", sans-serif;
   margin: 0px 18px;
 }
 
 .introbtn a button {
   border: none;
+    font-family: "Spline Sans", sans-serif;
   font-size: 18px;
   cursor: pointer;
   padding: 9px 12px;
@@ -144,6 +156,7 @@ body {
   background: #02111f;
   color: white;
   border: 4px solid #051e36;
+    font-family: "Spline Sans", sans-serif;
   border-radius: 2px;
 }
 
@@ -151,6 +164,7 @@ body {
   background: #dedede;
   color: rgb(0, 0, 0);
   border: 4px solid #051e3600;
+    font-family: "Spline Sans", sans-serif;
   border-radius: 2px;
 }
 
