@@ -60,23 +60,6 @@ export default function About() {
                 Checkout my works <Link href="/works">here.</Link>
               </p>
             </div>
-            <div className="section-youtube">
-              <p>
-                I am currently focusing on my Youtube Venture named{" "}
-                <Link href="https://codillion.netlify.app/" target="_blank">
-                  CODILLION
-                </Link>
-                , a channel that focuses on teaching people how to code. If you
-                are finding a appropriate channel to learn coding , CODILLION
-                can be one of a good channel for you along with CodeWithHarry
-                (NO PROMOTION). I mentioned this channel because I learned to
-                code from there.
-                <br />
-                <br />
-                <br />
-                Thanks for reading.
-              </p>
-            </div>
           </div>
         </div>
       </div>
