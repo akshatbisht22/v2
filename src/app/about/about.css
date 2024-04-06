@@ -145,11 +145,6 @@ body {
   font-weight: 700;
 }
 
-.section-youtube a {
-  color: #051e36;
-  font-weight: 700;
-  text-decoration: none;
-}
 
 @media (max-width: 1000px) {
   .navbarright {
